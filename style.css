@@ -1341,14 +1341,14 @@ section {
     margin: 0 auto
 }
 
-.te {
+.tl {
     position: relative;
     padding-left: 56px;
     max-width: 860px;
     margin: 0 auto
 }
 
-.te::before {
+.tl::before {
     content: '';
     position: absolute;
     left: 16px;
@@ -1358,7 +1358,7 @@ section {
     background: linear-gradient(to bottom, var(--accent), rgba(108, 99, 255, .1))
 }
 
-.te-item {
+.tl-item {
     position: relative;
     margin-bottom: 52px;
     opacity: 0;
@@ -1366,12 +1366,12 @@ section {
     transition: all .65s cubic-bezier(.23, 1, .32, 1)
 }
 
-.te-item.on {
+.tl-item.on {
     opacity: 1;
     transform: translateX(0)
 }
 
-.te-dot {
+.tl-dot {
     position: absolute;
     left: -47px;
     top: 5px;
@@ -1383,12 +1383,12 @@ section {
     transition: background .3s, box-shadow .3s
 }
 
-.te-item:hover .tl-dot {
+.tl-item:hover .tl-dot {
     background: var(--accent);
     box-shadow: 0 0 18px var(--glow)
 }
 
-.te-item::before {
+.tl-item::before {
     content: '';
     position: absolute;
     left: -41px;
@@ -1398,7 +1398,7 @@ section {
     background: linear-gradient(to right, var(--accent), transparent)
 }
 
-.te-date {
+.tl-date {
     font-size: .6rem;
     letter-spacing: .14em;
     color: var(--accent);
@@ -1429,26 +1429,26 @@ section {
     color: var(--dim)
 }
 
-.te-card {
+.tl-card {
     background: var(--surface);
     border: 1px solid var(--border);
     padding: 26px;
     transition: border-color .3s, box-shadow .3s
 }
 
-.te-item:hover .tl-card {
+.tl-item:hover .tl-card {
     border-color: rgba(108, 99, 255, .28);
     box-shadow: 0 16px 36px rgba(0, 0, 0, .28)
 }
 
-.te-role {
+.tl-role {
     font-family: 'Syne', sans-serif;
     font-size: 1.1rem;
     font-weight: 700;
     margin-bottom: 4px
 }
 
-.te-co {
+.tl-co {
     font-size: .68rem;
     color: var(--accent);
     letter-spacing: .07em;
@@ -1458,28 +1458,28 @@ section {
     gap: 7px
 }
 
-.te-co::before {
+.tl-co::before {
     content: '';
     width: 12px;
     height: 1px;
     background: var(--accent)
 }
 
-.te-desc {
+.tl-desc {
     font-size: .72rem;
     color: var(--muted);
     line-height: 1.85;
     margin-bottom: 16px
 }
 
-.te-list {
+.tl-list {
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 6px
 }
 
-.te-list li {
+.tl-list li {
     font-size: .7rem;
     color: var(--muted);
     padding-left: 18px;
@@ -1487,7 +1487,7 @@ section {
     line-height: 1.7
 }
 
-.te-list li::before {
+.tl-list li::before {
     content: '→';
     position: absolute;
     left: 0;
@@ -1496,7 +1496,7 @@ section {
 
 
 
-.te::before {
+.tl::before {
     content: '';
     position: absolute;
     left: 16px;
@@ -1531,12 +1531,12 @@ section {
     transition: background .3s, box-shadow .3s
 }
 
-.te-item:hover .tl-dot {
+.tl-item:hover .tl-dot {
     background: var(--accent);
     box-shadow: 0 0 18px var(--glow)
 }
 
-.te-item::before {
+.tl-item::before {
     content: '';
     position: absolute;
     left: -41px;
@@ -1546,7 +1546,7 @@ section {
     background: linear-gradient(to right, var(--accent), transparent)
 }
 
-.te-date {
+.tl-date {
     font-size: .6rem;
     letter-spacing: .14em;
     color: var(--accent);
@@ -1577,26 +1577,26 @@ section {
     color: var(--dim)
 }
 
-.te-card {
+.tl-card {
     background: var(--surface);
     border: 1px solid var(--border);
     padding: 26px;
     transition: border-color .3s, box-shadow .3s
 }
 
-.te-item:hover .tl-card {
+.tl-item:hover .tl-card {
     border-color: rgba(108, 99, 255, .28);
     box-shadow: 0 16px 36px rgba(0, 0, 0, .28)
 }
 
-.te-role {
+.tl-role {
     font-family: 'Syne', sans-serif;
     font-size: 1.1rem;
     font-weight: 700;
     margin-bottom: 4px
 }
 
-.te-co {
+.tl-co {
     font-size: .68rem;
     color: var(--accent);
     letter-spacing: .07em;
@@ -1606,28 +1606,28 @@ section {
     gap: 7px
 }
 
-.te-co::before {
+.tl-co::before {
     content: '';
     width: 12px;
     height: 1px;
     background: var(--accent)
 }
 
-.te-desc {
+.tl-desc {
     font-size: .72rem;
     color: var(--muted);
     line-height: 1.85;
     margin-bottom: 16px
 }
 
-.te-list {
+.tl-list {
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 6px
 }
 
-.te-list li {
+.tl-list li {
     font-size: .7rem;
     color: var(--muted);
     padding-left: 18px;
@@ -1635,7 +1635,7 @@ section {
     line-height: 1.7
 }
 
-.te-list li::before {
+.tl-list li::before {
     content: '→';
     position: absolute;
     left: 0;
